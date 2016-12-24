@@ -1,5 +1,5 @@
 //
-//  Posts.swift
+//  Post.swift
 //  Roomzy
 //
 //  Created by Luna An on 12/24/16.

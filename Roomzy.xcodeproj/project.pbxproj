@@ -11,7 +11,7 @@
 		DD4853301E0DD5B600BEAC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48532F1E0DD5B600BEAC02 /* AppDelegate.swift */; };
 		DD4853381E0DD5B600BEAC02 /* Roomzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4853361E0DD5B600BEAC02 /* Roomzy.xcdatamodeld */; };
 		DD48533A1E0DD5B600BEAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4853391E0DD5B600BEAC02 /* Assets.xcassets */; };
-		DD4853451E0F249A00BEAC02 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4853441E0F249A00BEAC02 /* Posts.swift */; };
+		DD4853451E0F249A00BEAC02 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4853441E0F249A00BEAC02 /* Post.swift */; };
 		DD4853471E0F24B300BEAC02 /* Bulletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4853461E0F24B300BEAC02 /* Bulletin.swift */; };
 		DD4853491E0F250000BEAC02 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4853481E0F250000BEAC02 /* DataStore.swift */; };
 		E833DF411E0DE6CE006438C4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833DF401E0DE6CE006438C4 /* LogInViewController.swift */; };
@@ -31,7 +31,7 @@
 		DD4853371E0DD5B600BEAC02 /* Roomzy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roomzy.xcdatamodel; sourceTree = "<group>"; };
 		DD4853391E0DD5B600BEAC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48533E1E0DD5B600BEAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4853441E0F249A00BEAC02 /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		DD4853441E0F249A00BEAC02 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		DD4853461E0F24B300BEAC02 /* Bulletin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bulletin.swift; sourceTree = "<group>"; };
 		DD4853481E0F250000BEAC02 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		E833DF401E0DE6CE006438C4 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 			children = (
 				E833DF481E0DF4AD006438C4 /* User.swift */,
 				E833DF4F1E0DF6AB006438C4 /* House.swift */,
-				DD4853441E0F249A00BEAC02 /* Posts.swift */,
+				DD4853441E0F249A00BEAC02 /* Post.swift */,
 				DD4853461E0F24B300BEAC02 /* Bulletin.swift */,
 				DD4853481E0F250000BEAC02 /* DataStore.swift */,
 			);
@@ -281,7 +281,7 @@
 				E833DF411E0DE6CE006438C4 /* LogInViewController.swift in Sources */,
 				DD4853381E0DD5B600BEAC02 /* Roomzy.xcdatamodeld in Sources */,
 				DD4853301E0DD5B600BEAC02 /* AppDelegate.swift in Sources */,
-				DD4853451E0F249A00BEAC02 /* Posts.swift in Sources */,
+				DD4853451E0F249A00BEAC02 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
