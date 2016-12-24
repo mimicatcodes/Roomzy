@@ -9,15 +9,13 @@
 /* Begin PBXBuildFile section */
 		D336F79F8527FDAF51604606 /* Pods_Roomzy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF7776F5655390E54B4F59B /* Pods_Roomzy.framework */; };
 		DD4853301E0DD5B600BEAC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48532F1E0DD5B600BEAC02 /* AppDelegate.swift */; };
-		DD4853321E0DD5B600BEAC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4853311E0DD5B600BEAC02 /* ViewController.swift */; };
-		DD4853351E0DD5B600BEAC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4853331E0DD5B600BEAC02 /* Main.storyboard */; };
 		DD4853381E0DD5B600BEAC02 /* Roomzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4853361E0DD5B600BEAC02 /* Roomzy.xcdatamodeld */; };
 		DD48533A1E0DD5B600BEAC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4853391E0DD5B600BEAC02 /* Assets.xcassets */; };
-		DD48533D1E0DD5B600BEAC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD48533B1E0DD5B600BEAC02 /* LaunchScreen.storyboard */; };
 		E833DF411E0DE6CE006438C4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833DF401E0DE6CE006438C4 /* LogInViewController.swift */; };
 		E833DF431E0DE700006438C4 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833DF421E0DE700006438C4 /* LogInView.swift */; };
 		E833DF451E0DF137006438C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E833DF441E0DF137006438C4 /* GoogleService-Info.plist */; };
 		E833DF471E0DF201006438C4 /* FirebaseMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833DF461E0DF201006438C4 /* FirebaseMethods.swift */; };
+		E833DF491E0DF4AD006438C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E833DF481E0DF4AD006438C4 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,16 +24,14 @@
 		D206718B9AAC2C68ACCBC52F /* Pods-Roomzy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomzy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roomzy/Pods-Roomzy.debug.xcconfig"; sourceTree = "<group>"; };
 		DD48532C1E0DD5B600BEAC02 /* Roomzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD48532F1E0DD5B600BEAC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD4853311E0DD5B600BEAC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD4853341E0DD5B600BEAC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD4853371E0DD5B600BEAC02 /* Roomzy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roomzy.xcdatamodel; sourceTree = "<group>"; };
 		DD4853391E0DD5B600BEAC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD48533C1E0DD5B600BEAC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD48533E1E0DD5B600BEAC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E833DF401E0DE6CE006438C4 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		E833DF421E0DE700006438C4 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		E833DF441E0DF137006438C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E833DF461E0DF201006438C4 /* FirebaseMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMethods.swift; sourceTree = "<group>"; };
+		E833DF481E0DF4AD006438C4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,19 +84,57 @@
 		DD48532E1E0DD5B600BEAC02 /* Roomzy */ = {
 			isa = PBXGroup;
 			children = (
-				E833DF401E0DE6CE006438C4 /* LogInViewController.swift */,
+				E833DF4A1E0DF4B6006438C4 /* Model */,
+				E833DF4B1E0DF4BF006438C4 /* View */,
+				E833DF4C1E0DF4D5006438C4 /* Controller */,
+				E833DF4D1E0DF4EC006438C4 /* Data */,
+				E833DF4E1E0DF502006438C4 /* Other */,
+			);
+			path = Roomzy;
+			sourceTree = "<group>";
+		};
+		E833DF4A1E0DF4B6006438C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E833DF481E0DF4AD006438C4 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E833DF4B1E0DF4BF006438C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				E833DF421E0DE700006438C4 /* LogInView.swift */,
-				DD48532F1E0DD5B600BEAC02 /* AppDelegate.swift */,
-				E833DF461E0DF201006438C4 /* FirebaseMethods.swift */,
-				DD4853311E0DD5B600BEAC02 /* ViewController.swift */,
-				DD4853331E0DD5B600BEAC02 /* Main.storyboard */,
 				DD4853391E0DD5B600BEAC02 /* Assets.xcassets */,
-				DD48533B1E0DD5B600BEAC02 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E833DF4C1E0DF4D5006438C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD48532F1E0DD5B600BEAC02 /* AppDelegate.swift */,
+				E833DF401E0DE6CE006438C4 /* LogInViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E833DF4D1E0DF4EC006438C4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E833DF461E0DF201006438C4 /* FirebaseMethods.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		E833DF4E1E0DF502006438C4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				DD48533E1E0DD5B600BEAC02 /* Info.plist */,
 				E833DF441E0DF137006438C4 /* GoogleService-Info.plist */,
 				DD4853361E0DD5B600BEAC02 /* Roomzy.xcdatamodeld */,
 			);
-			path = Roomzy;
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E833DF451E0DF137006438C4 /* GoogleService-Info.plist in Resources */,
-				DD48533D1E0DD5B600BEAC02 /* LaunchScreen.storyboard in Resources */,
 				DD48533A1E0DD5B600BEAC02 /* Assets.xcassets in Resources */,
-				DD4853351E0DD5B600BEAC02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,33 +262,14 @@
 			files = (
 				E833DF431E0DE700006438C4 /* LogInView.swift in Sources */,
 				E833DF471E0DF201006438C4 /* FirebaseMethods.swift in Sources */,
+				E833DF491E0DF4AD006438C4 /* User.swift in Sources */,
 				E833DF411E0DE6CE006438C4 /* LogInViewController.swift in Sources */,
 				DD4853381E0DD5B600BEAC02 /* Roomzy.xcdatamodeld in Sources */,
-				DD4853321E0DD5B600BEAC02 /* ViewController.swift in Sources */,
 				DD4853301E0DD5B600BEAC02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DD4853331E0DD5B600BEAC02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD4853341E0DD5B600BEAC02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD48533B1E0DD5B600BEAC02 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD48533C1E0DD5B600BEAC02 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD48533F1E0DD5B600BEAC02 /* Debug */ = {
