@@ -8,15 +8,22 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    lazy var logInViewController: LogInViewController = LogInViewController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FIRApp.configure()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = logInViewController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

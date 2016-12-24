@@ -6,6 +6,11 @@ target 'Roomzy' do
   use_frameworks!
 
   pod 'SnapKit', '~> 3.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  
 end
 
 post_install do |installer|
