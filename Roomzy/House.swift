@@ -12,6 +12,7 @@ struct House {
     
     let address: String
     var name: String
-    var tenants: [User]
+    var uniqueID: String
+    var tenants: [User]?
     
 }

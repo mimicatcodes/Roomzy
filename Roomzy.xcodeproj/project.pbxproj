@@ -101,12 +101,20 @@
 			path = Roomzy;
 			sourceTree = "<group>";
 		};
+		DD48534A1E0F547200BEAC02 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				DD4853441E0F249A00BEAC02 /* Post.swift */,
+			);
+			name = Posts;
+			sourceTree = "<group>";
+		};
 		E833DF4A1E0DF4B6006438C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DD48534A1E0F547200BEAC02 /* Posts */,
 				E833DF481E0DF4AD006438C4 /* User.swift */,
 				E833DF4F1E0DF6AB006438C4 /* House.swift */,
-				DD4853441E0F249A00BEAC02 /* Post.swift */,
 				DD4853461E0F24B300BEAC02 /* Bulletin.swift */,
 				DD4853481E0F250000BEAC02 /* DataStore.swift */,
 			);
